@@ -1,0 +1,81 @@
+body:after {
+	content: "Media: wtf, dude?";
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #666;
+	color: #fff;
+	z-index: 999;
+	padding: 5px 20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	body:after {
+		content: "Media: Smartphone";
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+	body:after {
+		content: "Media: Smartphone Landscape";
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	body:after {
+		content: "Media: Smartphone Portrait";
+	}
+}
+
+/* Pads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	body:after {
+		content: "Media: Pad";
+	}
+}
+
+/* Pads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	body:after {
+		content: "Media: Pad Landscape";
+	}
+}
+
+/* Pads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	body:after {
+		content: "Media: iPad Portrait";
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	body:after {
+		content: "Media: Desktop/Laptop";
+	}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	body:after {
+		content: "Media: Large Screen";
+	}
+}
