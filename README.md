@@ -7,6 +7,6 @@ It shows the [Media Queries for Standard Devices](http://css-tricks.com/snippets
 
 ## Usage
 Just add this line in the head of your Site:
-	$ <link type="text/css" rel="stylesheet" href="//rawgithub.com/TheBenji/which-media-query/master/media.css">
+    <link type="text/css" rel="stylesheet" href="//rawgithub.com/TheBenji/which-media-query/master/media.css">
 
 That's it!
